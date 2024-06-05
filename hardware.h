@@ -13,6 +13,6 @@ typedef enum{
 
 
 
-void initializeGPIO(uint32_t _pin, _PIN_DIRECTION_t _direction);
+int initializeGPIO(uint32_t _pin, _PIN_DIRECTION_t _direction);
 
 #endif

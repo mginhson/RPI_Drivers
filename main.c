@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     char c;
     int exit_loop = 0;
     
-    initializeGPIO(1,4);
+    initializeGPIO(1,AS_OUTPUT);
     while(!exit_loop)
     {
         while((c = getchar()) == '\n')
